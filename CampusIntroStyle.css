@@ -1,0 +1,238 @@
+/* This is the .css file for the Bittquack.ninja website titled
+"Introduction to the Stevens Campus". Hopefully this doesn't end
+up sucking. */
+
+
+body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 4%;
+    background-color: lightgray;
+}
+
+.addul{
+    margin-left: -2%;
+}
+
+hr{
+    background-color: darkred;
+    height: 10px;
+    border: 3px solid red;
+    margin-left: -4.25%;
+    margin-right: -15px;
+}
+
+.babbio, .mclean, .carnegie, .mpk, .burchard, .eas, .cph, .davis, .humphreys, .jonas, .hayden{
+    display: flex;
+    flex-flow: row;
+}
+
+p{
+    text-indent: 40px;
+    margin-left: 5%;
+    margin-right: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-right: 10%;
+    margin-left: 7%;
+}
+
+.abbreviations p{
+    display: block;
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+.abbreviations{
+    display: flex;
+    flex-flow: row;
+}
+
+.buildings b, .abbreviations h3{
+    display: block;
+    margin: auto;
+    margin-left: 3%;
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: white;
+}
+
+.jonas b{
+    margin-right: 0;
+}
+
+.eateries strong{
+    margin-left: 5%;
+}
+
+h1, h2{
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.eateries{
+    text-indent: 50px;
+}
+
+.buildings img{
+    border: 3px solid;
+    margin-left: 8%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.intro{
+    display: flex;
+    flex-flow: column;
+}
+
+.intropic{
+    border: 5px solid;
+    margin-bottom: 25px;
+}
+
+.mappic{
+    border: 5px solid;
+}
+
+@media only screen and (max-width: 800px){
+    
+    body{
+        text-align: center;
+    }
+    
+    .babbio, .mclean, .carnegie, .mpk, .burchard, .eas, .cph, .davis, .humphreys, .jonas, .hayden, .abbreviations{
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+    }
+    
+    .buildings img, .buildings b, .abbreviations h3, table{
+        display: box;
+        margin: auto;
+    }
+    
+    table{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .intro h1{
+        text-align: center;
+        margin: 0;
+    }
+    
+    .intropic{
+        width: 288px;
+        height: 180px;
+        display: box;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    
+    .map{
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+    }
+    
+    .mappic{
+        width: 360px;
+        height: 240px;
+        display: box;
+        margin: auto;
+    }
+    
+    .abbreviations, h2{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .toppart, .others{
+        text-align: left;
+    }
+    
+    .eateries h3, .eateries strong{
+        margin: 0;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        text-indent: 0;
+    }
+    
+    .map h3{
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    
+    .intropic{
+        height: 135px;
+        width: 216px;
+    }
+    
+    .mappic{
+        height: 160px;
+        width: 240px;
+    }
+    
+    p{
+        line-height: 1.5;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
