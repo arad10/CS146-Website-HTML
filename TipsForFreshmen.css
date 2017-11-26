@@ -1,0 +1,53 @@
+body{
+     margin-top: 30px;
+     margin-bottom: 30px;
+     margin-right: 15px;
+     margin-left: 4%;
+     background-color: lightgray;
+ }
+
+ul li {
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul li {
+    display: flex;
+    justify-content: center
+    
+}
+
+ hr{
+     background-color: darkred;
+     height: 10px;
+     border: 3px solid red;
+     margin-left: -4.25%;
+     margin-right: -15px;
+ }
+
+ @media only screen and (max-width: 800px){
+     
+     body{
+         text-align: center;
+     }
+     
+     .ohpic, .tmpic, .ascpic, .aqpic, .smpic{
+         width: 280px;
+         height: 180px;
+         margin: auto;
+     }
+}
+
+@media only screen and (max-width: 400px){
+    
+    .ohpic, .tmpic, .ascpic, .aqpic, .smpic{
+         width: 150px;
+         height: 100px;
+         margin: auto;
+     }
+
+
+}
+
+
