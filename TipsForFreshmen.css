@@ -26,6 +26,13 @@ ul li {
      margin-right: -15px;
  }
 
+.ohpic, .tmpic, .ascpic, .aqpic, .smpic{
+        display: flex;
+         width: 380px;
+         height: 280px;
+         margin: auto;
+     }
+
  @media only screen and (max-width: 800px){
      
      body{
